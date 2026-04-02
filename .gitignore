@@ -1,10 +1,35 @@
-node_modules/
+# Build artifacts
 __pycache__/
 *.pyc
-*.db
+*.pyo
+*.egg-info/
+
+# Databases
+db/*.db
 *.sqlite
-zeta_local-ai/models/*.gguf
-zeta_local-ai/bin/
+
+# Downloaded archives
 *.tar.gz
 *.zip
+*.whl
 *.deb
+
+# Large binary directories (models, llama.cpp)
+zeta_local-ai/models/
+zeta_local-ai/bin/
+zeta_local-ai/llama.cpp/
+
+# Go tool archives
+dnsx.tar.gz
+ffuf.tar.gz
+gobuster.tar.gz
+httpx.tar.gz
+katana.tar.gz
+naabu.tar.gz
+nuclei.tar.gz
+subfinder.tar.gz
+amass.tar.gz
+
+# Runtime
+tmp/
+*.log
