@@ -1,15 +1,14 @@
-# Python
+# Python caches
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
 
-# Go binaries (too large for git)
-*.tar.gz
-*.zip
+# Databases
+db/*.db
+*.sqlite
 
 # Runtime data
-db/*.db
 scans/
 reports/
 
@@ -21,3 +20,5 @@ zeta_local-ai/llama.cpp/
 # System
 .DS_Store
 Thumbs.db
+*.swp
+*~
