@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Go binaries (too large for git)
+*.tar.gz
+*.zip
+
+# Runtime data
+db/*.db
+scans/
+reports/
+
+# AI models (too large)
+zeta_local-ai/models/*.gguf
+zeta_local-ai/bin/
+zeta_local-ai/llama.cpp/
+
+# System
+.DS_Store
+Thumbs.db
