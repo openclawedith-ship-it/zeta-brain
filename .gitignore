@@ -1,24 +1,7 @@
-# Python caches
+*.db
 __pycache__/
 *.pyc
-*.pyo
-*.egg-info/
-
-# Databases
-db/*.db
+*.tar.gz
+*.zip
+node_modules/
 *.sqlite
-
-# Runtime data
-scans/
-reports/
-
-# AI models (too large)
-zeta_local-ai/models/*.gguf
-zeta_local-ai/bin/
-zeta_local-ai/llama.cpp/
-
-# System
-.DS_Store
-Thumbs.db
-*.swp
-*~
