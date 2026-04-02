@@ -1,7 +1,10 @@
-*.db
+node_modules/
 __pycache__/
 *.pyc
+*.db
+*.sqlite
+zeta_local-ai/models/*.gguf
+zeta_local-ai/bin/
 *.tar.gz
 *.zip
-node_modules/
-*.sqlite
+*.deb
