@@ -1,35 +1,22 @@
-# Build artifacts
+# Generated/runtime files
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
-
-# Databases
 db/*.db
-*.sqlite
+scans/
+reports/
 
-# Downloaded archives
-*.tar.gz
-*.zip
-*.whl
-*.deb
-
-# Large binary directories (models, llama.cpp)
-zeta_local-ai/models/
+# Large binaries (not needed for recovery)
+zeta_local-ai/models/*.gguf
 zeta_local-ai/bin/
 zeta_local-ai/llama.cpp/
 
-# Go tool archives
-dnsx.tar.gz
-ffuf.tar.gz
-gobuster.tar.gz
-httpx.tar.gz
-katana.tar.gz
-naabu.tar.gz
-nuclei.tar.gz
-subfinder.tar.gz
-amass.tar.gz
+# Downloaded archives (redownloadable)
+*.tar.gz
+*.zip
+*.deb
 
-# Runtime
-tmp/
-*.log
+# Submodule contents (have their own repos)
+portfolio/
+zeta_local-ai/llama.cpp/
